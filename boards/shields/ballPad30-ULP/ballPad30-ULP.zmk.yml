@@ -1,6 +1,6 @@
 file_format: "1"
-id: ballPad30
-name: ballPad30
+id: ballPad30-ULP
+name: ballPad30-ULP
 type: shield
 url: https://github.com/bakajaan/zmk-config9/
 requires: [seeeduino_xial_ble]
