@@ -1,0 +1,17 @@
+if SHIELD_BALLPAD30-ULP_R
+
+# Name must be less than 16 characters long!
+config ZMK_KEYBOARD_NAME
+    default "ballPad30-ULP"
+
+config ZMK_SPLIT_ROLE_CENTRAL
+    default y
+
+endif
+
+if SHIELD_BALLPAD30-ULP_R || SHIELD_BALLPAD30-ULP_L
+
+config ZMK_SPLIT
+    default y
+
+endif
