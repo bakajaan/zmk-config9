@@ -1,0 +1,7 @@
+# No whitespace after the comma or in your part name!
+config SHIELD_BALLPAD30-ULP-L
+    def_bool $(shields_list_contains,ballPad30-ULP_L)
+
+# No whitespace after the comma or in your part name!
+config SHIELD_BALLPAD30-ULP-R
+    def_bool $(shields_list_contains,ballPad30-ULP_R)
