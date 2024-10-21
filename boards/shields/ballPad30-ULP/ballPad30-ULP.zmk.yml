@@ -1,0 +1,8 @@
+file_format: "1"
+id: ballPad30
+name: ballPad30
+type: shield
+url: https://github.com/bakajaan/zmk-config9/
+requires: [seeeduino_xial_ble]
+features:
+  - keys
